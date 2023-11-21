@@ -1,0 +1,5 @@
+( LIT pushes to stack )
+( 68 is ASCII for h )
+( 18 is address for write )
+( DEO means deviceoutput )
+|0100 LIT 68 LIT 18 DEO

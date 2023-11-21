@@ -1,0 +1,12 @@
+( 68 is ASCII for h )
+( DEO means deviceoutput )
+( devices )
+|10 @Console &vector $2 &read $1 &pad $5 &write $1 &error $1
+
+( main program )
+|0100   LIT "h .Console/write DEO
+        LIT "e .Console/write DEO
+        LIT "l .Console/write DEO
+        LIT "l .Console/write DEO
+        LIT "o .Console/write DEO
+        LIT 0a .Console/write DEO
